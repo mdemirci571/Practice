@@ -1,6 +1,6 @@
 <h1 style="color:red;text-align:center;"> Change Random Background Color App</h1>
 
-![changebackground](./dosyalar/changebackground.gif)
+![changebackground](./img/changebackground.gif)
 
 ## Expected
 
