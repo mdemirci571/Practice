@@ -130,3 +130,131 @@
     color: rgb(253, 241, 223);
   }
   
+.main-total {
+    padding: 2rem;
+  }
+  
+  .subtotal {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 0.5rem;
+    align-items: center;
+  }
+  footer {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    color: #eee;
+    background-color: #531f27;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    main {
+      width: 80%;
+    }
+    h1 {
+      font-size: 3.2rem;
+    }
+    h3 {
+      font-size: 1.6rem;
+    }
+    .span1,
+    .spanx {
+      font-size: 1.4rem;
+    }
+    .span2 {
+      font-size: 0.8rem;
+    }
+    form {
+      width: 15vw;
+    }
+    .ptotal,
+    .stotal,
+    .main-total {
+      font-size: 1.2rem;
+    }
+    .add,
+    .rem {
+      padding: 0.5rem 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 850px) {
+    main {
+      width: 90%;
+    }
+    h1 {
+      font-size: 2.5rem;
+      padding: 2rem 0;
+    }
+    h3 {
+      font-size: 1.3rem;
+    }
+    .span1,
+    .spanx {
+      font-size: 1.2rem;
+    }
+    .span2 {
+      font-size: 0.7rem;
+    }
+    form {
+      width: 20vw;
+    }
+    form button {
+      width: 4vw;
+      height: 4vh;
+    }
+    .ptotal,
+    .stotal,
+    .main-total {
+      font-size: 1rem;
+    }
+    .add,
+    .rem {
+      padding: 0.4rem;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    main {
+      width: 70%;
+    }
+    h3 {
+      font-size: 1.4rem;
+    }
+    .span1,
+    .spanx {
+      font-size: 1.3rem;
+    }
+    .span2 {
+      font-size: 0.8rem;
+    }
+    form {
+      width: 20vw;
+      padding: 0.5rem;
+    }
+    form button {
+      width: 4vw;
+      height: 4vh;
+    }
+    .product {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .photo,
+    .info {
+      width: 100%;
+      align-items: center;
+    }
+    .ptotal,
+    .stotal,
+    .main-total {
+      font-size: 1.2rem;
+    }
+    .remove {
+      width: 50%;
+    }
+  }
+  
