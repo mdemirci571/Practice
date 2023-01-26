@@ -35,7 +35,7 @@
     opacity: 0.9;
   }
   
-.product {
+  .product {
     padding: 2rem;
     display: flex;
     gap: 2rem;
@@ -71,6 +71,7 @@
     text-decoration: line-through;
     font-size: 1rem;
   }
+  
   img {
     border-radius: 1rem;
     width: 100%;
@@ -102,6 +103,7 @@
     text-align: center;
     background-color: rgb(239, 239, 231);
   }
+  
   .remove {
     width: 20%;
     background-color: brown;
@@ -130,7 +132,7 @@
     color: rgb(253, 241, 223);
   }
   
-.main-total {
+  .main-total {
     padding: 2rem;
   }
   
