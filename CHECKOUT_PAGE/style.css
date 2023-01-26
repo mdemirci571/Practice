@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100%;
+    background-color: rgb(236, 119, 83);
+    position: relative;
+    background-image: url(./img/bck.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    padding: 3rem 0;
+    font-size: 4rem;
+    color: rgb(253, 241, 223);
+    display: inline-block;
+  }
+  
+  main {
+    width: 60%;
+    height: fit-content;
+    background-color: rgb(119, 119, 34);
+    margin: 0 auto 5rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    opacity: 0.9;
+  }
