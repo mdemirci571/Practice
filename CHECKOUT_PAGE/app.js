@@ -44,4 +44,23 @@ let total = (x) => {
   const newresultProduct = { id: idAttr, counter: quantity, sum: result };
   resultProduct.push(newresultProduct);
   localStorage.setItem("resultProduct", JSON.stringify(resultProduct));
-};
+}
+let totalAll = () => {
+    let subtotal = 0;
+    let sumOfSumTotal = document.querySelectorAll(".stotal");
+    sumOfSumTotal.forEach((a) => {
+      subtotal += Number(a.innerText);
+    });
+    document.querySelector(".subt").innerText = subtotal.toFixed(2);
+    document.querySelector(".tax").innerText = (subtotal * 0.18).toFixed(2);
+  
+    if (subt.innerText > 150) {
+      document.querySelector(".ship").innerText = "free";
+      document.querySelector(".total").innerText = (subtotal * 1.18).toFixed(2);
+    } else {
+      document.querySelector(".ship").innerText = 15;
+      document.querySelector(".total").innerText = (subtotal * 1.18 + 15).toFixed(
+        2
+      );
+    }
+  };
