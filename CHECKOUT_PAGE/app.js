@@ -30,3 +30,18 @@ container.addEventListener("click", (e) => {
         e.target.closest(".product").remove();
       }
     }
+    totalAll();
+});
+
+let total = (x) => {
+  let idAttr = new Date().getMilliseconds();
+  x.id = idAttr;
+  let span1 = x.querySelector(".span1").innerText;
+  let quantity = x.querySelector("#quantity").innerText;
+  let result = Number((span1 * quantity).toFixed(2));
+  x.querySelector(".stotal").innerText = result;
+
+  const newresultProduct = { id: idAttr, counter: quantity, sum: result };
+  resultProduct.push(newresultProduct);
+  localStorage.setItem("resultProduct", JSON.stringify(resultProduct));
+};
