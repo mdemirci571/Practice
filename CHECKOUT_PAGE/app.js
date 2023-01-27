@@ -15,3 +15,18 @@ let totalProducts = JSON.parse(localStorage.getItem("totalProducts")) || [];
 //     createNewRes(to)
 //   })
 // }
+container.addEventListener("click", (e) => {
+    e.preventDefault();
+    if (e.target.classList.contains("plus")) {
+      e.target.previousElementSibling.innerText++;
+      total(e.target.closest(".info"));
+    } else if (e.target.classList.contains("minus")) {
+      if (e.target.nextElementSibling.innerText > 0) {
+        e.target.nextElementSibling.innerText--;
+        total(e.target.closest(".info"));
+      }
+    } else if (e.target.classList.contains("remove")) {
+      if (confirm("Are you sure?")) {
+        e.target.closest(".product").remove();
+      }
+    }
