@@ -9,7 +9,8 @@
 
 ## Objective
 
-Design a IOS CALCULATOR that is functionally similar to this: [IOS CALCULATOR](https://css-grid-ios.netlify.app/)
+Design a IOS CALCULATOR that is functionally similar to this: 
+[IOS CALCULATOR](https://css-grid-ios.netlify.app/)
 
 ### At the end of the project, following topics are to be covered;
 
