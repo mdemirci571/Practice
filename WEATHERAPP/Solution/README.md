@@ -1,4 +1,4 @@
-# Project: Weather_App (JS)
+# Project: Weather_App (JS-REACT)
 
 ## Description
 
@@ -12,13 +12,13 @@ At the end of the this project, will be able to;
 
 - demonstrate their knowledge of algorithmic design principles.
 
+
+![Form](./img/animation.gif)
 ## Problem Statement
 
 - Design a weather condition page following the design and populate data for searched city with using of axios in JS.
 
-![Form](./img/animation.gif)
-
-User story;
+## User story;
 
 - User can search city around the world.
 - The app can fetch api with the searched city name(... and apikey if it is obligatory).
@@ -26,5 +26,5 @@ User story;
 - User can display list of searched city weather data card like on gif.
 - If new searched city is in the weather data list, app can display a warning text to user on page.
 
-🔥 Used [OpenWeather Api](https://openweathermap.org/) for your app.
-
+🔥 Used [OpenWeather Api](https://openweathermap.org/) for your app. <br>
+[Repo: =>](https://github.com/mdemirci571/weather_App)
